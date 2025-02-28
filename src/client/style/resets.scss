@@ -1,0 +1,52 @@
+/* Reset styles */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html {
+    -webkit-text-size-adjust: 100%;
+    -moz-tab-size: 4;
+    tab-size: 4;
+    line-height: 1.15; /* Adjusts the default line height */
+}
+
+body {
+    margin: 0;
+    font-family: sans-serif; /* Add a more readable default font */
+}
+
+main {
+    display: block; /* Ensures that main is displayed as a block */
+}
+
+h1 {
+    font-size: 2em; /* Adds a default font size to h1 */
+    margin: 0.67em 0;
+}
+
+
+/* Form elements */
+button,
+input,
+optgroup,
+select,
+textarea {
+    margin: 0;
+}
+
+button{
+	background-color: green;
+	width: 100%; 
+	margin: 20px 0px;
+	height: 50px;
+	color: white;
+
+}
+
+
+blockquote::before, blockquote::after,
+q::before, q::after {
+    content: '';
+}
